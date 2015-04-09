@@ -1,0 +1,11 @@
+import pynotify
+from time import sleep
+
+def sendmessage(title,msg):
+    pynotify.init("Break")
+    notice = pynotify.Notification(title,msg)
+    notice.show()
+    return
+    
+
+
